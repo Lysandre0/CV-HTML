@@ -1,4 +1,49 @@
-.un
-{
-	font-family: "Calibri";
+.headerone{
+	font-family : lato;
+}
+.titleone{
+	font-family: lato;
+	font-size: 30px;
+	font-weight: bold;
+}
+.titletwo{
+	font-family: lato;
+	font-size: 30px;
+	font-weight: bold;
+}
+.titlethree{
+	font-family: lato;
+	font-size: 30px;
+	font-weight: bold;
+}
+.titlefour{
+	font-family: lato;
+	font-size: 30px;
+	font-weight: bold;
+}
+.titlefive{
+	font-family: lato;
+	font-size: 30px;
+	font-weight: bold;
+}
+.textone{
+	font-family: calibri;
+}
+.texttwo{
+	font-family: calibri;
+}
+.textthree{
+	font-family: calibri;
+}
+.textfour{
+	font-family: calibri;
+}
+.textfive{
+	font-family: calibri;
+}
+.textsix{
+	font-family: calibri;
+}
+.textseven{
+	font-family: calibri;
 }
