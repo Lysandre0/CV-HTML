@@ -1,5 +1,14 @@
-.body {
+.bodyone {
 	background: #000080;
+}
+.pictureone{
+	position: relative;
+	top: 1px;
+}
+.picturetwo{
+	position: relative;
+	top: 2px;
+	left: 2px;
 }
 .headerone {
 	color: white;
@@ -97,7 +106,7 @@
 .textthree{
 	font-family: calibri;
 	color: white;
-	border: 1px transparant black;
+	border: 1px transparent black;
 	width: 400px;
 	background: navy;
 	position: absolute;
@@ -135,7 +144,7 @@
 	position: absolute;
 	top: 555px;
 	left: 0px;
-	margin-top: px;
+	margin-top: 0px;
 	padding-bottom: 50px;
 	padding-top: 30px
 }
