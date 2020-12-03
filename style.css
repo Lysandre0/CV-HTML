@@ -123,7 +123,7 @@
 	position: absolute;
 	top: 666px;
 	left: 630px;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 }
 .textfive{
 	font-family: calibri;
@@ -145,7 +145,7 @@
 	top: 555px;
 	left: 0px;
 	margin-top: 0px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	padding-top: 30px
 }
 .textseven{
@@ -154,7 +154,8 @@
 	width: 400px;
 	background: white;
 	position: absolute;
-	top: 565px;
+	top: 564px;
 	left: 200px;
-	padding-bottom: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 41.2px;
 }
