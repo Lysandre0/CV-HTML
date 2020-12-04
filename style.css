@@ -1,164 +1,46 @@
-.bodyone {
-	background: #000080;
+#body{
+	background: navy;
 }
-.navone{
-
+#header{
+	font-family: lato;
+	color: white;
+	padding-left: 1%;
 }
-.pictureone{
+#nav{
+	font-family: lato;
+	font-weight: bold;
+	padding-left: 1.5%;
+	color: black;
+	background: white;
+	position: absolute;
+	left : 0%;
+	width: 13%;
+	height: 83.4%;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+}
+#nav a{
+	text-decoration: none;
+	color: purple;
+}
+#section{
+	font-family: lato;
+	color: white;
+	padding: 1%;
+	position: absolute;
+	top: 1%;
+	left: 55%;
+	border: 2px solid navy;
+}
+.adress{
+	position: relative;
+	top: 1.5px;
+}
+.mail{
+	position: relative;
+	top: ;
+}
+.phone{
 	position: relative;
 	top: 1px;
-}
-.picturetwo{
-	position: relative;
-	top: 2px;
-	left: 2px;
-}
-.headerone {
-	color: white;
-	font-family: lato;
-	background: #000080;
-	border: 1px transparent black;
-	position: absolute;
-	top: 2px;
-}
-.titleone{
-	font-family: lato;
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	border: 1px transparent black;
-	width: 400px;
-	background: #000080;
-	position: absolute;
-	top:120px;
-	left: 630px;
-	text-align: center;
-}
-.titletwo{
-	font-family: lato;
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	border: 1px transparent black;
-	width: 400px;
-	background: navy;
-	position:absolute;
-	top: 380px;
-	left: 630px;
-	text-align: center;
-}
-.titlethree{
-	font-family: lato;
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	border: 1px transparent black;
-	width: 400px;
-	background: navy;
-	position: absolute;
-	top: 600px;
-	left: 630px;
-	text-align: center;
-}
-.titlefour{
-	font-family: lato;
-	font-size: 30px;
-	font-weight: bold;
-	border: 1px solid white;
-	width: 600px;
-	background: white;
-	text-align: center;
-	position: absolute;
-	top: 120px;
-	left: 0px;
-}
-.titlefive{
-	font-family: lato;
-	font-size: 30px;
-	font-weight: bold;
-	border: 1px solid white;
-	width: 600px;
-	background: white;
-	text-align: center;
-	position: absolute;
-	top: 467px;
-	left: 0px;
-}
-.textone{
-	font-family: calibri;
-	color: white;
-	border: 1px transparent black;
-	width: 400px;
-	background: #000080;
-	position: absolute;
-	top: 4px; 
-	left: 630px; 
-	text-align: justify;
-}
-.texttwo{
-	font-family: calibri;
-	color: white;
-	border: 1px transparent black;
-	width: 400px;
-    background: navy;
-	position:absolute;
-	top: 200px;
-	left: 630px;
-	text-align: justify;
-}
-.textthree{
-	font-family: calibri;
-	color: white;
-	border: 1px transparent black;
-	width: 400px;
-	background: navy;
-	position: absolute;
-	top: 445px;
-	left: 630px;
-	text-align: justify;
-}
-.textfour{
-	font-family: calibri;
-	color: white;
-	border: 1px transparent black;
-	width: 400px;
-	background: navy;
-	position: absolute;
-	top: 666px;
-	left: 630px;
-	padding-bottom: 35px;
-}
-.textfive{
-	font-family: calibri;
-	border: 1px solid white;
-	width: 600px;
-	background: white;
-	text-align: center;
-	position: absolute;
-	top: 218px;
-	left : 0px;
-}
-.textsix{
-	font-family: calibri;
-	border: 1px solid white;
-	width: 200px;
-	background: white;
-	text-align: center;
-	position: absolute;
-	top: 555px;
-	left: 0px;
-	margin-top: 0px;
-	padding-bottom: 40px;
-	padding-top: 30px
-}
-.textseven{
-	font-family: calibri;
-	border: 1px solid white;
-	width: 400px;
-	background: white;
-	position: absolute;
-	top: 564px;
-	left: 200px;
-	margin-bottom: 0px;
-	padding-bottom: 41.2px;
 }
