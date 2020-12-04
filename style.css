@@ -7,40 +7,63 @@
 	padding-left: 1%;
 }
 #nav{
+	z-index: 1;
 	font-family: lato;
 	font-weight: bold;
 	padding-left: 1.5%;
 	color: black;
-	background: white;
+	background: #262626;
 	position: absolute;
 	left : 0%;
 	width: 13%;
-	height: 83.4%;
-	border-top: 5px solid black;
-	border-right: 5px solid black;
+	height: 82.8%;
+	border-top : 5px solid #00b0ff;
+	border-right: 5px solid #00b0ff;
+	border-bottom: 5px solid #00b0ff;
+	border-left: 5px transparent white;
+	box-shadow: 5px 5px 5px black;
 }
 #nav a{
 	text-decoration: none;
-	color: purple;
+	color: #00b0ff;
+	text-shadow: grey 1px 1px 1px;
 }
 #section{
 	font-family: lato;
 	color: white;
 	padding: 1%;
 	position: absolute;
-	top: 1%;
+	top: 1.5%;
 	left: 55%;
 	border: 2px solid navy;
 }
 .adress{
+	height: 15px;
+	width: auto;
 	position: relative;
 	top: 1.5px;
 }
 .mail{
+	height: 15px;
+	width: auto;
 	position: relative;
 	top: ;
 }
 .phone{
+	height: 15px;
+	width: auto;
 	position: relative;
 	top: 1px;
+}
+#backgroundbody{
+	position: absolute;
+	top: ;
+	background-color: white;
+	border-top : 5px solid white;
+	border-right: 5px solid white;
+	border-bottom: 5px solid white;
+	border-left: 5px solid #00b0ff;
+	left: 14.51%;
+	height: 82.8%;
+	width: 84.8%;
 }
