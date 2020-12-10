@@ -7,47 +7,25 @@ a, a:hover, a:visited, a:active
 	background: rgba(255, 255, 255, 1);
 }
 #header{
-	z-index: 9999;
 	font-family: lato;
 	color: rgba(255, 255, 255, 1);
+	position: absolute;
+	height: 100px;
+	width: 1466px;
+	top: 0px;
+	left: 0px;
+	margin-top: -18px;
+	padding-left: 30px;
 	background: rgba(0, 0, 128, 1);
-	position: absolute;
-	height: 13%;
-	width: 98.46%;
-	top: 0%;
-	right: auto;
-	bottom: auto;
-	left: auto;
-	padding-top: auto;
-	padding-right: auto;
-	padding-bottom: auto;
-	padding-left: 3%;
-	margin-top: -1.3%;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: -2%;
-	text-shadow: 1px 1px 1px rgba(200, 200, 200, 1), 4px 5px 3px rgba(0, 0, 0, 0.40);
 	border-bottom: 1px solid rgba(0, 0, 0, 1);
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.40)
 }
-.adress{
-	z-index: 9999;
+#adress{
 	font-family: lato;
 	color: rgba(255, 255, 255, 1);
-	width: 15%;
 	position: absolute;
-	top: auto;
-	right: 28.5%;
-	bottom: auto;
-	left: auto;
-	padding-top: 0.2%;
-	padding-right: auto;
-	padding-bottom: auto;
-	padding-left: auto;
-	margin-top: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
+	width: 200px;
+	right: 440px;
+	top: 22px;
 }
 .pictureadress{
 	height: 18px;
@@ -55,35 +33,21 @@ a, a:hover, a:visited, a:active
 	position: relative;
 	top: 13px
 }
-.mail{
-	z-index: 9999;
+#mail{
 	font-family: lato;
-	height: 2%;
-	width: 14.8%;
 	position: absolute;
-	top: 3.5%;
-	right: 14.8%;
-	bottom: auto;
-	left: auto;	
-	padding-top: 0.1%;
-	padding-right: auto;
-	padding-bottom: auto;
-	padding-left: auto;
-	margin-top: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
+	top: 31px;
+	right: 215px;
+
 }
-.mail:hover{
+#mail:hover{
 	transition: all 450ms;
 	transform: scale(1.05);
-	background-color: rgba(0, 128, 255, 1);
 	border-radius: 10px;
-	padding-top: auto;
-	padding-right: auto;
-	padding-bottom: 0.5%;
-	padding-left: 0.3%;
-	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+	padding-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	background: rgba(0, 128, 255, 1);
 }
 .picturemail{
 	height: 17px;
@@ -91,36 +55,20 @@ a, a:hover, a:visited, a:active
 	position: relative;
 	top: 2.5px
 }
-.phone{
-	z-index: 9999;
+#phone{
 	font-family: lato;
-	height: 2%;
-	width: 9.5%;
 	position: absolute;
-	top: 3.5%;
-	right: 4%;
-	bottom: auto;
-	left: auto;	
-	padding-top: 0.1%;
-	padding-right: auto;
-	padding-bottom: auto;
-	padding-left: auto;
-	margin-top: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
+	top: 31px;
+	right: 50px;
 }
-.phone:hover{
-	cursor: pointer;
+#phone:hover{
 	transition: all 450ms;
 	transform: scale(1.05);
-	background-color: rgba(0, 128, 255, 1);
 	border-radius: 10px;
-	padding-top: auto;
-	padding-right: auto;
-	padding-bottom: 0.5%;
-	padding-left: 0.3%;	
-	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+	padding-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	background: rgba(0, 128, 255, 1);	
 }
 .picturephone{
 	height: 17px;
@@ -129,23 +77,10 @@ a, a:hover, a:visited, a:active
 	top: 2.5px
 }
 #nav{
-	z-index: auto;
-	background: rgba(240, 240, 240, 0);
+	background: rgba(0, 240, 0, 0);
 	position: absolute;
-	height: 62.2%;
-	width: 3%;
-	top: 8%;
-	right: auto;
-	bottom: 0%;
-	left: 0%;
-	padding-top: 12.5%;
-	padding-right: auto;
-	padding-bottom: auto; 
-	padding-left: 2.5%;
-	margin-top: -4px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
+	top: 285px;
+	left: 30px;
 }
 .cercleA{
 	font-family: calibri;
@@ -171,96 +106,94 @@ a, a:hover, a:visited, a:active
 .cercleA:hover{
 	transition: 0.1s;
 	color: rgba(0, 0, 0, 1);
-	transform: scale(1.35);
-	width: 180px;
-	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	transform: scale(1.30);
+	width: 160px;
 }
 .cercleB:hover{
 	transition: 0.1s;
 	color: rgba(255, 255, 255, 1);
-	transform: scale(1.35);
-	width: 180px;
-	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	transform: scale(1.30);
+	width: 160px;
 }
 .homeA{
 	filter: invert(0%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .curriculum-vitaeA{
 	filter: invert(0%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .projectsA{
 	filter: invert(0%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .aboutA{
 	filter: invert(0%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.9px;
 }
 .homeB{
 	filter: invert(100%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .curriculum-vitaeB{
 	filter: invert(100%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .projectsB{
 	filter: invert(100%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .githubB{
 	filter: invert(100%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 5px;
 }
 .linkedinB{
 	filter: invert(100%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.8px;
 }
 .aboutB{
 	filter: invert(100%);
-	height: 3.5%;
+	height: 20px;
 	width: auto;
 	position: absolute;
-	margin-left: 4.3%;
-    margin-top: 3.7%;
+	margin-left: 4.8px;
+	margin-top: 4.9px;
 }
 .titleA{
 	position: relative;
@@ -274,3 +207,182 @@ a, a:hover, a:visited, a:active
 	top: 5px;
 	font-weight: bold;
 }
+#cv{
+	font-family: lato;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	animation: FONDU 2s;
+}
+.compétences{
+	height: 160px;
+	font-family: calibri;
+	font-size: 14pt;
+	background: rgba(99, 161, 234, 1);
+	border: 3px solid rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	position: absolute;
+	top: 230px;
+	left: 210px;
+	text-align: center;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	transform: rotate(180deg);
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left:565px;
+	animation: FONDU 2s;
+}
+.expériences{
+	font-family: calibri;
+	font-size: 14pt;
+	background: rgba(99, 161, 234, 1);
+	height: 210px;
+	border: 3px solid rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	text-align: center;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	transform: rotate(180deg);
+	position: absolute;
+	top: 470px;
+	left: 210px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	padding-left:565px;
+	animation: FONDU 2s;
+}
+.diplômes{
+	height: 205px;
+	width: 394.2px;
+	font-family: calibri;
+	font-size: 14pt;
+	background: rgba(99, 161, 234, 1);
+	border: 3px solid rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	text-align: center;
+	position: absolute;
+	padding: 10px;
+	top: 211.2px;
+	left: 900px;
+	animation: FONDU 2s;
+}
+.logiciels{
+	height: 190px;
+	width: 173.4px;
+	font-family: calibri;
+	font-size: 14pt;
+	background: rgba(99, 161, 234, 1);
+	border: 3px solid rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	text-align: center;
+	position: absolute;
+	padding: 10px;
+	top: 481.2px;
+	left: 900px;
+	animation: FONDU 2s;
+}
+.qualités{
+	height: 190px;
+	width: 141.6px;
+	font-family: calibri;
+	font-size: 14pt;
+	background: rgba(99, 161, 234, 1);
+	border: 3px solid rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	text-align: center;
+	position: absolute;
+	padding: 10px;
+	top: 481.2px;
+	left: 1155px;
+	animation: FONDU 2s;
+}
+#contenucompétences{
+	height: 190px;
+	width: 517px;
+	font-family: calibri;
+	font-size: 12pt;
+	color: white;
+	background: rgba(0, 128, 255, 0);
+	border: 3px transparent rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	position: absolute;
+	top: 233px;
+	left: 283px;
+	padding-left: 20px;
+	padding-right: 20px;
+	animation: FONDU 2s;
+}
+#contenuexpériences{
+	height: 240px;
+	width: 517px;
+	font-family: calibri;
+	font-size: 10pt;
+	color: white;
+	background: rgba(0, 128, 255, 0);
+	border: 3px transparent rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	position: absolute;
+	top: 473px;
+	left: 283px;
+	padding-left: 20px;
+	padding-right: 20px;
+	animation: FONDU 2s;
+}
+#contenudiplômes{
+	font-family: calibri;
+	font-size: 12pt;
+	color: white;
+	background: rgba(0, 128, 255, 0);
+	border: 3px transparent rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	position: absolute;
+	top: 273.2px;
+	left: 903px;
+	padding-left: 20px;
+	padding-right: 20px;
+	animation-delay: 6s;
+	animation: FONDU 2s;
+}
+#contenulogiciels{
+	font-family: calibri;
+	font-size: 12pt;
+	color: white;
+	background: rgba(0, 128, 255,0);
+	border: 3px transparent rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	position: absolute;
+	top: 540px;
+	left: 897px;
+	padding-left: 20px;
+	padding-right: 20px;
+	animation: FONDU 2s;
+}
+#contenuqualités{
+	font-family: calibri;
+	font-size: 12pt;
+	color: white;
+	background: rgba(0, 128, 255, 0);
+	border: 3px transparent rgba(99, 161, 234, 1);
+	border-radius: 15px;
+	position: absolute;
+	top: 556px;
+	left: 1168px;
+	padding-left: 5px;
+	animation: FONDU 2s;
+}
+.italic{
+	font-size: 9pt;
+}
+@keyframes FONDU{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
