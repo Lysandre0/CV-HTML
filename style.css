@@ -16,7 +16,7 @@ a, a:hover, a:visited, a:active
 	left: 0px;
 	margin-top: -18px;
 	padding-left: 30px;
-	background: rgba(0, 0, 128, 1);
+	background: rgba(0, 0, 155, 1);
 	border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 #adress{
@@ -38,16 +38,16 @@ a, a:hover, a:visited, a:active
 	position: absolute;
 	top: 31px;
 	right: 215px;
-
+	transition: all 0.5s;
 }
 #mail:hover{
-	transition: all 450ms;
+	transition: all 0.5s;
 	transform: scale(1.05);
 	border-radius: 10px;
 	padding-right: 5px;
 	padding-bottom: 1px;
 	padding-left: 4px;
-	background: rgba(0, 128, 255, 1);
+	background: rgba(50, 165, 255, 1);
 }
 .picturemail{
 	height: 17px;
@@ -60,15 +60,16 @@ a, a:hover, a:visited, a:active
 	position: absolute;
 	top: 31px;
 	right: 50px;
+	transition : all 0.5s;
 }
 #phone:hover{
-	transition: all 450ms;
+	transition: all 0.5s;
 	transform: scale(1.05);
 	border-radius: 10px;
 	padding-right: 5px;
 	padding-bottom: 1px;
 	padding-left: 4px;
-	background: rgba(0, 128, 255, 1);	
+	background: rgba(50, 165, 255, 1);
 }
 .picturephone{
 	height: 17px;
@@ -207,7 +208,7 @@ a, a:hover, a:visited, a:active
 	top: 5px;
 	font-weight: bold;
 }
-#cv{
+#titlepage{
 	font-family: lato;
 	font-size: 50px;
 	font-weight: bold;
@@ -215,148 +216,173 @@ a, a:hover, a:visited, a:active
 	position: absolute;
 	top: 70px;
 	left: 100px;
-	animation: FONDU 2s;
+	animation: fondubody 2s;
 }
-#compétences{
-	height: 190px;
-	width: 477px;
+#competences{
+	height: 180px;
+	width: 507px;
 	font-family: calibri;
 	font-size: 11pt;
-	color: white;
-	background: rgba(99, 161, 234, 1);
-	border: 3px transparent rgba(99, 161, 234, 1);
+	color: black;
+	background: rgba(50, 165, 255, 1);
 	border-radius: 15px;
 	position: absolute;
-	top: 220px;
-	left: 250px;
-	padding-left: 100px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	animation: FONDU 2s;
+	top: 210px;
+	left: 240px;
+	padding-left: 80px;
+	padding-bottom: 25px;
+	transition: filter 1s, transform 1s;
+	animation: fondubody 3s;
 }
-.compétences{
+.titlecompetences{
 	color: black;
 	font-size: 16pt;
 	position: absolute;
-	top: 35px;
+	top: 40px;
 	left: 10px;
 	writing-mode: vertical-lr;
 	text-orientation: mixed;
 	transform: rotate(180deg);
 }
-#compétences:hover{
-	transform: scale(1.03);
-	background: rgba(39, 101, 174, 1);
+#competences:hover{
+	transition: 0.5s;
+	transform: scale(1.01);
+	filter: invert(100%);
 }
-#expériences{
+.titlecompetences:hover{
+	transition: 1s;
+	color: rgba(205, 90, 0, 1);
+}
+#experiences{
 	height: 270px;
 	width: 477px;
 	font-family: calibri;
 	font-size: 11pt;
-	color: white;
-	background: rgba(99, 161, 234, 1);
-	border: 3px transparent rgba(99, 161, 234, 1);
+	color: black;
+	background: rgba(50, 165, 255, 1);
 	border-radius: 15px;
 	position: absolute;
 	top: 460px;
-	left: 250px;
+	left: 240px;
 	padding-left: 100px;
 	padding-right: 10px;
-	animation: FONDU 2s;
+	padding-bottom: 5px;
+	transition: filter 1s, transform 1s;
+	animation: fondubody 3s;
 }
-.expériences{
+.titleexperiences{
 	color: black;
 	font-size: 16pt;
 	position: absolute;
-	top: 80px;
+	top: 85px;
 	left: 10px;
 	writing-mode: vertical-lr;
 	text-orientation: mixed;
 	transform: rotate(180deg);
 }
-#expériences:hover{
-	transform: scale(1.03);
-	background: rgba(39, 101, 174, 1);
+#experiences:hover{
+	transition: 0.5s;
+	transform: scale(1.01);
+	filter: invert(100%);
 }
-#diplômes{
+.titleexperiences:hover{
+	transition: 1s;
+	color: rgba(205, 90, 0, 1);
+}
+#diplomes{
 	height: 225px;
 	font-family: calibri;
 	font-size: 11pt;
-	color: white;
-	background: rgba(99, 161, 234, 1);
-	border: 3px transparent rgba(99, 161, 234, 1);
+	color: black;
+	background: rgba(50, 165, 255, 1);
 	border-radius: 15px;
 	position: absolute;
-	top: 220px;
+	top: 210px;
 	left: 900px;
 	padding-left: 20px;
 	padding-right: 20px;
-	animation-delay: 6s;
-	animation: FONDU 2s;
+	transition: filter 1s, transform 1s;
+	animation: fondubody 3s;
 }
-.diplômes{
+.titlediplomes{
 	color: black;
 	text-align: center;
 	font-size: 16pt;
 }
-#diplômes:hover{
-	transform: scale(1.03);
-	background: rgba(39, 101, 174, 1);
+#diplomes:hover{
+	transition: 0.5s;
+	transform: scale(1.01);
+	filter: invert(100%);
+}
+.titlediplomes:hover{
+	transition: 1s;
+	color: rgba(205, 90, 0, 1);
 }
 #logiciels{
+	height: 225px;
 	font-family: calibri;
 	font-size: 11pt;
-	color: white;
-	background: rgba(99, 161, 234, 1);
-	border: 3px transparent rgba(99, 161, 234, 1);
+	color: black;
+	background: rgba(50, 165, 255, 1);
 	border-radius: 15px;
 	position: absolute;
-	top: 495px;
+	top: 485px;
 	left: 897px;
 	padding-left: 20px;
 	padding-right: 20px;
-	animation: FONDU 2s;
+	transition: filter 1s, transform 1s;
+	animation: fondubody 3s;
 }
-.logiciels{
+.titlelogiciels{
 	color: black;
 	text-align: center;
 	font-size: 16pt
 }
 #logiciels:hover{
-	transform: scale(1.03);
-	background: rgba(39, 101, 174, 1);
+	transition: 0.5s;
+	transform: scale(1.01);
+	filter: invert(100%);
 }
-#qualités{
-	height: 230px;
-	width: 155px;
+.titlelogiciels:hover{
+	transition: 1s;
+	color: rgba(205, 90, 0, 1);
+}
+#traits{
+	height: 225px;
+	width: 170px;
 	font-family: calibri;
 	font-size: 11pt;
-	color: white;
-	background: rgba(99, 161, 234, 1);
-	border: 3px transparent rgba(99, 161, 234, 1);
+	color: black;
+	background: rgba(50, 165, 255, 1);
 	border-radius: 15px;
 	position: absolute;
-	top: 495px;
+	top: 485px;
 	left: 1115px;
-	padding-left: 15px;
-	animation: FONDU 2s;
+	transition: filter 1s, transform 1s;
+	animation: fondubody 3s;
 }
-.qualités{
+.titletraits{
 	color: black;
 	text-align: center;
-	font-size: 16pt
+	font-size: 16pt;
 }
-#qualités:hover{
-	transform: scale(1.03);
-	background: rgba(39, 101, 174, 1);
+#traits:hover{
+	transition: 0.5s;
+	transform: scale(1.01);
+	filter: invert(100%);
+}
+.titletraits:hover{
+	transition: 1s;
+	color: rgba(205, 90, 0, 1);
 }
 .italic{
 	font-size: 9pt;
 }
-@keyframes FONDU{
+@keyframes fondubody{
 	0%{
 		opacity: 0;
 	}
 	100%{
 		opacity: 1;
 	}
+}
