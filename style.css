@@ -8,6 +8,7 @@ a, a:hover, a:visited, a:active
 }
 #header{
 	font-family: lato;
+	text-shadow: 3px 3px 4px rgba(0, 0, 255, 1);
 	color: rgba(255, 255, 255, 1);
 	position: absolute;
 	height: 100px;
@@ -16,11 +17,13 @@ a, a:hover, a:visited, a:active
 	left: 0px;
 	margin-top: -18px;
 	padding-left: 30px;
+	box-shadow: 0px 5px 10px black;
 	background: rgba(0, 0, 155, 1);
 	border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 #adress{
 	font-family: lato;
+	text-shadow: 0px 0.5px 2px black;
 	color: rgba(255, 255, 255, 1);
 	position: absolute;
 	width: 200px;
@@ -36,18 +39,27 @@ a, a:hover, a:visited, a:active
 #mail{
 	font-family: lato;
 	position: absolute;
+	text-shadow: 0px 0.5px 2px black;
 	top: 31px;
 	right: 215px;
-	transition: all 0.5s;
+	background-position: center;
+	transition: all 0.8s;
+	padding-left: 4px;
 }
 #mail:hover{
-	transition: all 0.5s;
+	transition: all 0.5;
 	transform: scale(1.05);
-	border-radius: 10px;
+	border-radius: 5px;
 	padding-right: 5px;
 	padding-bottom: 1px;
 	padding-left: 4px;
-	background: rgba(50, 165, 255, 1);
+	box-shadow: 0px 5px 10px black;
+	background:rgba(60, 140, 225, 1);
+}
+#mail:active {
+	background-color: rgba(162, 0, 0, 1);
+	background-size: 100%;
+	transition: 0.2s;
 }
 .picturemail{
 	height: 17px;
@@ -58,18 +70,25 @@ a, a:hover, a:visited, a:active
 #phone{
 	font-family: lato;
 	position: absolute;
+	text-shadow: 0px 0.5px 2px black;
 	top: 31px;
 	right: 50px;
-	transition : all 0.5s;
+	transition : all 0.8s;
 }
 #phone:hover{
-	transition: all 0.5s;
+	transition: all 0.7s;
 	transform: scale(1.05);
-	border-radius: 10px;
+	border-radius: 5px;
 	padding-right: 5px;
 	padding-bottom: 1px;
 	padding-left: 4px;
-	background: rgba(50, 165, 255, 1);
+	box-shadow: 0px 5px 10px black;
+	background:rgba(60, 140, 225, 1);
+}
+#phone:active{
+	background-color: rgba(162, 0, 0, 1);
+	background-size: 100%;
+	transition: 0.2s;
 }
 .picturephone{
 	height: 17px;
@@ -86,13 +105,12 @@ a, a:hover, a:visited, a:active
 .cercleA{
 	font-family: calibri;
 	text-align: center;
-    width: 26px;
-	height: 26px;
-    border-radius: 26px;
+    width: 30px;
+	height: 30px;
+    border-radius: 30px;
 	background: rgba(255, 255, 255, 1);
 	color: rgba(0, 0, 0, 0);
-	border: 2px solid rgba(0, 16, 32, 1);
-	transition: width 4s, transform 1s, box-shadow 1s;
+	transition: width 3s, transform 0s, box-shadow 3s;
 }
 .cercleB{
 	font-family: calibri;
@@ -102,19 +120,31 @@ a, a:hover, a:visited, a:active
 	border-radius: 30px;
 	color: rgba(0, 0, 0, 0);
 	background: rgba(0, 16, 32, 1);
-	transition: width 4s, transform 1s, box-shadow 1s;
+	transition: width 3s, transform 0s, box-shadow 3s;
 }
 .cercleA:hover{
 	transition: 0.1s;
 	color: rgba(0, 0, 0, 1);
 	transform: scale(1.30);
-	width: 160px;
+	box-shadow: 0px 5px 8px black;
+	width: 170px;
 }
 .cercleB:hover{
 	transition: 0.1s;
 	color: rgba(255, 255, 255, 1);
 	transform: scale(1.30);
-	width: 160px;
+	box-shadow: 0px 5px 8px black;
+	width: 170px;
+}
+.cercleA:active{
+	background-color: rgba(162, 0, 0, 1);
+	background-size: 100%;
+	transition: 0.1s;
+}
+.cercleB:active{
+	background-color: rgba(162, 0, 0, 1);
+	background-size: 100%;
+	transition: 0.1s;
 }
 .homeA{
 	filter: invert(0%);
@@ -199,13 +229,13 @@ a, a:hover, a:visited, a:active
 .titleA{
 	position: relative;
 	text-align: center;
-	top: 3px;
+	top: 6px;
 	font-weight: bold;
 }
 .titleB{
 	position: relative;
 	text-align: center;
-	top: 5px;
+	top: 6px;
 	font-weight: bold;
 }
 #titlepage{
@@ -216,15 +246,17 @@ a, a:hover, a:visited, a:active
 	position: absolute;
 	top: 70px;
 	left: 100px;
+	text-shadow: 2px 2px 5px #969696;
 	animation: fondubody 2s;
 }
 #competences{
 	height: 180px;
 	width: 507px;
+	text-shadow: 0px 0.5px 2px grey;
 	font-family: calibri;
 	font-size: 11pt;
 	color: black;
-	background: rgba(50, 165, 255, 1);
+	background:rgba(60, 140, 225, 1);
 	border-radius: 15px;
 	position: absolute;
 	top: 210px;
@@ -233,6 +265,7 @@ a, a:hover, a:visited, a:active
 	padding-bottom: 25px;
 	transition: filter 1s, transform 1s;
 	animation: fondubody 3s;
+	box-shadow:  8px 8px 24px #969696;
 }
 .titlecompetences{
 	color: black;
@@ -246,20 +279,21 @@ a, a:hover, a:visited, a:active
 }
 #competences:hover{
 	transition: 0.5s;
-	transform: scale(1.01);
+	transform: scale(1.02);
 	filter: invert(100%);
 }
 .titlecompetences:hover{
 	transition: 1s;
-	color: rgba(205, 90, 0, 1);
+	color: rgba(225, 145, 60, 1);
 }
 #experiences{
 	height: 270px;
 	width: 477px;
 	font-family: calibri;
+	text-shadow: 0px 0.5px 2px grey;
 	font-size: 11pt;
 	color: black;
-	background: rgba(50, 165, 255, 1);
+	background:rgba(60, 140, 225, 1);
 	border-radius: 15px;
 	position: absolute;
 	top: 460px;
@@ -269,6 +303,7 @@ a, a:hover, a:visited, a:active
 	padding-bottom: 5px;
 	transition: filter 1s, transform 1s;
 	animation: fondubody 3s;
+	box-shadow:  8px 8px 24px #969696;
 }
 .titleexperiences{
 	color: black;
@@ -282,19 +317,20 @@ a, a:hover, a:visited, a:active
 }
 #experiences:hover{
 	transition: 0.5s;
-	transform: scale(1.01);
+	transform: scale(1.02);
 	filter: invert(100%);
 }
 .titleexperiences:hover{
 	transition: 1s;
-	color: rgba(205, 90, 0, 1);
+	color: rgba(225, 145, 60, 1);
 }
 #diplomes{
 	height: 225px;
 	font-family: calibri;
+	text-shadow: 0px 0.5px 2px grey;
 	font-size: 11pt;
 	color: black;
-	background: rgba(50, 165, 255, 1);
+	background:rgba(60, 140, 225, 1);
 	border-radius: 15px;
 	position: absolute;
 	top: 210px;
@@ -303,6 +339,7 @@ a, a:hover, a:visited, a:active
 	padding-right: 20px;
 	transition: filter 1s, transform 1s;
 	animation: fondubody 3s;
+	box-shadow:  8px 8px 24px #969696;
 }
 .titlediplomes{
 	color: black;
@@ -311,27 +348,29 @@ a, a:hover, a:visited, a:active
 }
 #diplomes:hover{
 	transition: 0.5s;
-	transform: scale(1.01);
+	transform: scale(1.02);
 	filter: invert(100%);
 }
 .titlediplomes:hover{
 	transition: 1s;
-	color: rgba(205, 90, 0, 1);
+	color: rgba(225, 145, 60, 1);
 }
 #logiciels{
 	height: 225px;
 	font-family: calibri;
+	text-shadow: 0px 0.5px 2px grey;
 	font-size: 11pt;
 	color: black;
-	background: rgba(50, 165, 255, 1);
+	background:rgba(60, 140, 225, 1);
 	border-radius: 15px;
 	position: absolute;
-	top: 485px;
+	top: 475px;
 	left: 897px;
 	padding-left: 20px;
 	padding-right: 20px;
 	transition: filter 1s, transform 1s;
 	animation: fondubody 3s;
+	box-shadow:  8px 8px 24px #969696;
 }
 .titlelogiciels{
 	color: black;
@@ -340,26 +379,28 @@ a, a:hover, a:visited, a:active
 }
 #logiciels:hover{
 	transition: 0.5s;
-	transform: scale(1.01);
+	transform: scale(1.02);
 	filter: invert(100%);
 }
 .titlelogiciels:hover{
 	transition: 1s;
-	color: rgba(205, 90, 0, 1);
+	color: rgba(225, 145, 60, 1);
 }
 #traits{
 	height: 225px;
 	width: 170px;
 	font-family: calibri;
+	text-shadow: 0px 0.5px 2px grey;
 	font-size: 11pt;
 	color: black;
-	background: rgba(50, 165, 255, 1);
+	background:rgba(60, 140, 225, 1);
 	border-radius: 15px;
 	position: absolute;
-	top: 485px;
+	top: 475px;
 	left: 1115px;
 	transition: filter 1s, transform 1s;
 	animation: fondubody 3s;
+	box-shadow:  8px 8px 24px #969696;
 }
 .titletraits{
 	color: black;
@@ -368,12 +409,12 @@ a, a:hover, a:visited, a:active
 }
 #traits:hover{
 	transition: 0.5s;
-	transform: scale(1.01);
+	transform: scale(1.02);
 	filter: invert(100%);
 }
 .titletraits:hover{
 	transition: 1s;
-	color: rgba(205, 90, 0, 1);
+	color: rgba(225, 145, 60, 1);
 }
 .italic{
 	font-size: 9pt;
