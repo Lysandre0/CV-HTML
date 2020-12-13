@@ -6,7 +6,7 @@
 	font-family: lato;
 	font-size: 18px;
 	text-shadow: 1px 1px 4px rgba(0, 0, 255, 1);
-	background-color: rgb(0, 0, 128, 1);
+	background-color: rgb(0, 0, 128, .9);
 	position: absolute;
 	height: 110px;
 	width: auto;
@@ -14,6 +14,7 @@
 	right: 0px;
 	left: 0px;
 	padding-left: 40px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
 #adress{
 	font-family: lato;
@@ -52,7 +53,7 @@
 }
 #mail:hover{
 	transition: all 1s;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(50, 50, 255, 1);
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 	transform: scale(1.05);
 	padding-left: 3px;
@@ -80,7 +81,7 @@
 }
 #phone:hover{
 	transition: all 1s;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(50, 50, 255, 1);
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 	transform: scale(1.05);
 	padding-left: 3px;
@@ -89,7 +90,6 @@
 	border-radius: 6px;
 }
 #nav{
-	z-index: 1;
 	background: rgba(0, 0, 0, 0);
 	position: absolute;
 	width: 200px;
@@ -164,7 +164,6 @@
 	top: 5.5px;
 }
 #titlepage{
-	z-index: 9999;
 	font-family: lato;
 	color : rgba(0, 0, 0, 1);
 	font-size: 30px;
@@ -177,6 +176,7 @@
 	padding-top: 10px;
 	padding-left: 150px;
 	border-bottom: 1px solid rgba(150, 150, 150, 1);
+	box-shadow: 0px 1px 5px rgba(150, 150, 150, 1);
 	animation: fondubody 1s;
 }
 #competences{
@@ -184,7 +184,7 @@
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
 	text-shadow: 1px 1px 1px grey;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(98, 0, 234, 1);
 	position: relative;
 	height: 200px;
 	width: 450px;
@@ -198,7 +198,8 @@
 }
 #competences:hover{
 	transition: all 1s;
-	filter: invert(100%);
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(170, 120, 255, 1);
 	transform: scale(1.05);
 }
 .titlecompetences{
@@ -210,12 +211,16 @@
 	text-orientation: mixed;
 	transform: rotate(180deg);
 }
+.titlecompetences:hover{
+	transition: all 1s;
+	color: rgba(98, 0, 234, 1);
+}
 #experiences{
 	font-family: calibri;
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
 	text-shadow: 1px 1px 1px grey;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(98, 0, 234, 1);
 	position: relative;
 	height: 305px;
 	width: 530px;
@@ -229,7 +234,8 @@
 }
 #experiences:hover{
 	transition: all 1s;
-	filter: invert(100%);
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(170, 120, 255, 1);
 	transform: scale(1.05);
 }
 .titleexperiences{
@@ -241,6 +247,10 @@
 	text-orientation: mixed;
 	transform: rotate(180deg);
 }
+.titleexperiences:hover{
+	transition: all 1s;
+	color: rgba(98, 0, 234, 1);
+}
 .italicexeperiences{
 	font-size: 14px;
 }
@@ -249,7 +259,7 @@
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
 	text-shadow: 1px 1px 1px grey;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(98, 0, 234, 1);
 	position: absolute;
 	top: 158px;
 	left: 830px;
@@ -262,12 +272,17 @@
 }
 #diplomes:hover{
 	transition: all 1s;
-	filter: invert(100%);
+	color :rgba(0, 0, 0, 1);
+	background-color: rgba(170, 120, 255, 1);
 	transform: scale(1.05);
 }
 .titlediplomes{
 	font-size: 22px;
 	text-align: center;
+}
+.titlediplomes:hover{
+	transition: all 1s;
+	color: rgba(98, 0, 234, 1);
 }
 .italicdiplomes{
 	font-size: 14px;
@@ -277,7 +292,7 @@
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
 	text-shadow: 1px 1px 1px grey;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(98, 0, 234, 1);
 	position: absolute;
 	top: 446px;
 	left: 958px;
@@ -289,19 +304,24 @@
 }
 #logiciels:hover{
 	transition: all 1s;
-	filter: invert(100%);
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(170, 120, 255, 1);
 	transform: scale(1.05);
 }
 .titlelogiciels{
 	font-size: 22px;
 	text-align: center;
 }
+.titlelogiciels:hover{
+	transition: all 1s;
+	color: rgba(98, 0, 234, 1);
+}
 #aptitudes{
 	font-family: calibri;
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
 	text-shadow: 1px 1px 1px grey;
-	background-color: rgba(0, 0, 255, 1);
+	background-color: rgba(98, 0, 234, 1);
 	position: absolute;
 	width: 180px;
 	top: 446px;
@@ -312,12 +332,17 @@
 }
 #aptitudes:hover{
 	transition: all 1s;
-	filter: invert(100%);
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(170, 120, 255, 1);
 	transform: scale(1.05);
 }
 .titleaptitudes{
 	font-size: 22px;
 	text-align: center;
+}
+.titleaptitudes:hover{
+	transition: all 1s;
+	color: rgba(98, 0, 234, 1);
 }
 a, a:hover, a:visited, a:active{
 	color: rgba(255, 255, 255, 1);
